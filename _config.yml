@@ -18,3 +18,7 @@ github_username: DurhamRegionHARP
 
 # Build settings
 markdown: kramdown
+
+# SASS settings
+sass:
+  sass_dir: _sass
