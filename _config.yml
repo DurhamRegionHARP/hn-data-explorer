@@ -1,9 +1,11 @@
 #
-# Turn this into a basic template for HARP
+# Health Neighbourhoods Data Explorer
+#
+# James Lane
 
 # Site settings
 description: Make data beautiful with Jekyll
-baseurl: "/RRFSS-data-explorer"
+baseurl: "/hn-data-explorer"
 url: "https://durhamregionharp.github.io"
 
 # User settings

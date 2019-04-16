@@ -1,0 +1,19 @@
+{
+  "name": "hn-data-explorer",
+  "version": "1.0.0",
+  "description": "wet-boew-jekyll =============== [![Build Status](https://travis-ci.org/wet-boew/wet-boew-jekyll.svg?branch=master)](https://travis-ci.org/wet-boew/wet-boew-jekyll)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DurhamRegionHARP/hn-data-explorer.git"
+  },
+  "author": "James Lane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DurhamRegionHARP/hn-data-explorer/issues"
+  },
+  "homepage": "https://github.com/DurhamRegionHARP/hn-data-explorer#readme"
+}
