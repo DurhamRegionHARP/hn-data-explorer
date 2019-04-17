@@ -8656,6 +8656,9 @@ body.wb-modal .modal-dialog summary {
   margin: 0;
   padding: 0; }
 
+.wb-menu .menu > li:not(:last-child) {
+  margin-right: 1.75rem; }
+
 .wb-menu .menu > li a {
   display: block;
   padding: 1em;
@@ -11145,7 +11148,6 @@ main {
   color: #000; }
 
 #wb-sm {
-  background: #0e4164;
   color: #fff; }
 
 #wb-sm .menu {
@@ -11153,11 +11155,7 @@ main {
   text-shadow: 1px 1px 1px #666; }
 
 #wb-sm .menu > li > a {
-  border-left: 1px solid #999;
   color: #fff; }
-
-#wb-sm .menu > li:last-child > a {
-  border-right: 1px solid #999; }
 
 #wb-sm .sm.open {
   background: #ccc;

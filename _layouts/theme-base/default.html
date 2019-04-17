@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en-US"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang=""><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en-US">
+<html class="no-js" lang="">
 <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
@@ -33,8 +33,8 @@
 		</ul>
 		<header role="banner" class="container">
 			<div id="wb-bnr" class="flex">
-				<p><a href=" {{ site.baseurl }}/index.html">Health Neighbourhoods</a></p>
-				<nav role="navigation" id="wb-sm" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}http://wet-boew.github.io/wet-boew/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+				<p><a href="{{ site.baseurl }}/index.html">Health Neighbourhoods</a></p>
+				<nav role="navigation" id="wb-sm" data-ajax-fetch="{% if page.altMenu == null or page.altMenu == '' %}https://wet-boew.github.io/wet-boew/ajax/sitemenu{% else %}{{ page.altMenu }}{% endif %}-{{ page.language }}.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
 					{% include base/sitemenu.html %}
 				</nav>
 			</div>
